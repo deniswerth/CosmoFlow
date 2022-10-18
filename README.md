@@ -19,9 +19,7 @@
 * sentence saying that we provide several examples of inflationary correlators, look at the paper)
 * Give a few examples of plots + minimal explanation
 
-## Authors
+## Author
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
-* [Lucas Pinol](mailto:pinol@iap.fr) -- Instituto de Física Teórica (IFT), Madrid
-* [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
