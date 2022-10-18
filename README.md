@@ -1,11 +1,10 @@
-.. image:: https://img.shields.io/badge/python-3.8.2-blue.svg
-    :target: https://python.org
+[![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
 
-.. image:: https://img.shields.io/badge/arXiv-1803.09746%20-yellowgreen.svg
-    :target: https://arxiv.org/abs/1803.09746
-    
-.. image:: https://img.shields.io/badge/License-APM-blue.svg
-    :target: https://choosealicense.com/licenses/mit/
+[![ArXiv](https://img.shields.io/badge/arXiv-1803.09746%20-yellowgreen.svg)](https://arxiv.org/abs/1803.09746)
+
+[![License](https://img.shields.io/badge/License-APM-blue.svg)](https://choosealicense.com/licenses/mit/)
+
+
 
 # The Cosmological Flow
 
