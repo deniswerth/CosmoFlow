@@ -1,3 +1,7 @@
+[![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
+
 # The Cosmological Flow
 
-## A Systematic Approach to Inflationary Correlators
+<p align="center">
+  <img src="Figures/CosmologicalFlow.gif">
+</p>
