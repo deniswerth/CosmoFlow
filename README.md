@@ -3,5 +3,5 @@
 # The Cosmological Flow
 
 <p align="center">
-  <img src="CosmoFlow/Figures/CosmologicalFlow.png">
+  <img src="Figures/CosmologicalFlow.png">
 </p>
