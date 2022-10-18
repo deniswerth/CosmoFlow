@@ -23,5 +23,5 @@
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
 * [Lucas Pinol](mailto:pinol@iap.fr) -- Instituto de Física Teórica (IFT), Madrid
-* [Sébsatien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
+* [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
