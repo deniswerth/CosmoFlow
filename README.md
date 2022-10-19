@@ -17,6 +17,12 @@ This repository contains details on CosmoFlow, a numerical tool to automatically
 
 ## Inflationary Correlators
 
+The Cosmological Flow approach is based on computing inflationary correlators by solving differential equations in time governing their time evolution through the entirety of the spacetime during inflation, from their origin as quantum fluctuations in the deep past to the end of inflation. This method takes into account all physical effects at tree-level without approximation. Specifically, CosmoFlow computes the two- and three-point correlators of fields and/or conjugate momenta
+
+$$
+\langle X^{\sf{a}} X^{\sf{b}}\rangle = (2\pi)^3 \delta^{(3)}()
+$$
+
 * What does the code compute (add Latex formula): given a general theory for the fluctuations, all 2-3pt correlators of all combinations of fields, scale dependence and shape dependence for the bispectrum.
 * sentence saying that we provide several examples of inflationary correlators, look at the paper)
 * Give a few examples of plots + minimal explanation
