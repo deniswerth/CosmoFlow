@@ -3,21 +3,32 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 
-
 # The Cosmological Flow
 
 * Paragraph of intro presenting the repository
 
 * Link to arxiv paper.
 
-## Getting Started
+## Inflationary Correlators
 
-## Example Notebook
-
-## Examples of Inflationary Correlators
-
+* What does the code compute (add Latex formula): given a general theory for the fluctuations, all 2-3pt correlators of all combinations of fields, scale dependence and shape dependence for the bispectrum.
 * sentence saying that we provide several examples of inflationary correlators, look at the paper)
 * Give a few examples of plots + minimal explanation
+* details in the paper
+
+## Getting Started with a Tutorial Notebook
+
+### Prerequisites
+
+* List all packages and their versions
+
+### Usage
+
+* Present all the .py and what they compute/do
+
+### Tutorials
+
+* Present the notebook and give the link
 
 ## Extensions and Future Work
 
