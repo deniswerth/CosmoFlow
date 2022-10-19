@@ -24,7 +24,7 @@ $$
 $$
 
 $$
-\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} X^{\mathsf{c}}_{\vec{k}_3}\rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B^{\mathsf{abc}}(k_1, k_2, k_3).
+\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} X^{\mathsf{c}}_{\vec{k}_3} \rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B^{\mathsf{abc}}(k_1, k_2, k_3).
 $$
 
 * What does the code compute (add Latex formula): given a general theory for the fluctuations, all 2-3pt correlators of all combinations of fields, scale dependence and shape dependence for the bispectrum.
