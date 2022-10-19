@@ -20,11 +20,11 @@ This repository contains details on CosmoFlow, a numerical tool to automatically
 The Cosmological Flow approach is based on computing inflationary correlators by solving differential equations in time governing their time evolution through the entirety of the spacetime during inflation, from their origin as quantum fluctuations in the deep past to the end of inflation. This method takes into account all physical effects at tree-level without approximation. Specifically, CosmoFlow computes the two- and three-point correlators of fields and/or conjugate momenta $X^{\mathsf{a}}$ in Fourier space
 
 $$
-\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} \rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2) \Sigma(k_1),
+\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} \rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2) \Sigma^{\mathsf{ab}}(k_1),
 $$
 
 $$
-\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} X^{\mathsf{b}}_{\vec{k}_3}\rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B(k_1, k_2, k_3).
+\langle X^{\mathsf{a}}_{\vec{k}_1} X^{\mathsf{b}}_{\vec{k}_2} X^{\mathsf{c}}_{\vec{k}_3}\rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B^{\mathsf{abc}}(k_1, k_2, k_3).
 $$
 
 * What does the code compute (add Latex formula): given a general theory for the fluctuations, all 2-3pt correlators of all combinations of fields, scale dependence and shape dependence for the bispectrum.
