@@ -24,15 +24,14 @@ $$
 $$
 
 $$
-\langle X^{\mathsf{a}}(\vec{k}_1) X^{\mathsf{b}}(\vec{k}_2) X^{\mathsf{c}}(\vec{k}_3) \rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B^{\mathsf{abc}}(k_1, k_2, k_3).
+\langle X^{\mathsf{a}}(\vec{k}_1) X^{\mathsf{b}}(\vec{k}_2) X^{\mathsf{c}}(\vec{k}_3) \rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B^{\mathsf{abc}}(k_1, k_2, k_3),
 $$
 
-* What does the code compute (add Latex formula): given a general theory for the fluctuations, all 2-3pt correlators of all combinations of fields, scale dependence and shape dependence for the bispectrum.
-* sentence saying that we provide several examples of inflationary correlators, look at the paper)
-* Give a few examples of plots + minimal explanation
-* details in the paper
+from any theory of inflationary fluctuations i.e. that include an arbitrary number of degrees of freedom with any propagation speeds, couplings, and time-dependencies.
 
 ## Getting Started with a Tutorial Notebook
+
+For the boundless possibilities that this approach provides, we have made our numerical colde CosmoFlow available for the community.
 
 ### Prerequisites
 
