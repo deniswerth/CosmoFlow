@@ -5,7 +5,7 @@
 
 # The Cosmological Flow
 
-This repository contains details on CosmoFlow, a numerical tool to automatically compute inflationary correlators. More details on the method can be found in the paper:
+This repository contains details on CosmoFlow, a numerical tool to automatically compute inflationary correlators. More details on the method and applications can be found in the paper:
 
 [![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://google.com)
 
