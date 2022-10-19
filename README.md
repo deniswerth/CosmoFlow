@@ -22,6 +22,7 @@ The Cosmological Flow approach is based on computing inflationary correlators by
 $$
 \langle X^{\sf{a}}_{\vec{k}_1} X^{\vec{b}_{\vec{k}_2}}\rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2) \Sigma(k_1),
 $$
+
 $$
 \langle X^{\sf{a}}_{\vec{k}_1} X^{\vec{b}_{\vec{k}_2} X^{\vec{b}_{\vec{k}_3}}\rangle = (2\pi)^3 \delta^{(3)}(\vec{k}_1 + \vec{k}_2+ \vec{k}_2) B(k_1, k_2, k_3).
 $$
