@@ -31,7 +31,7 @@ from any theory of inflationary fluctuations i.e. that include an arbitrary numb
 
 ## Getting Started with a Tutorial Notebook
 
-For the boundless possibilities that this approach provides, we have made our numerical colde CosmoFlow available for the community.
+For the boundless possibilities that this approach provides, we have made our numerical code CosmoFlow available for the community.
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ We have turned the Cosmological Flow approach into an open-source tool available
 
 * Such tool should be easy to install and use, and easily scriptable. In particular, performing the Legendre transform to derive the Hamiltonian given a Lagrangian should be performed in an automatic manner. Second, we ideally want this tool to be fast, producing instantaneous results. 
 * We plan to extend the Cosmological Flow approach to include spinning fields and to be able to compute the trispectrum, as well as at loop level.
-* At the moment, the code is rather slow, especially when it comes to computing the full shape of the bispectrum i.e. scanning over all triangle configurations. Performing parameter constraining using numerical outputs given by CosmoFlow directly from a theory of inflationary fluctuations is at the moment out of reach. The main limitation is the integration time of the correlators inside the horizon, which grows exponentially with the number of subhorizon efolds. Scanning the squeezed limit is therefore computationally very expensive. Such improvement calls for a better and more sophisticated numerical implementation that the one that was used so far. Ideally, the solver should be hard-coded in C++ with a Python wrapper as interface for flexibility.
+* At the moment, the code is rather slow, especially when it comes to computing the full shape of the bispectrum i.e. scanning over all triangle configurations. Performing parameter constraints using numerical outputs given by CosmoFlow directly from a theory of inflationary fluctuations is at the moment out of reach. The main limitation is the integration time of the correlators inside the horizon, which grows exponentially with the number of subhorizon efolds. Scanning the squeezed limit is therefore computationally very expensive. Such improvement calls for a better and more sophisticated numerical implementation than the one that was used so far. Ideally, the solver should be hard-coded in C++ with a Python wrapper as interface for flexibility.
 * More ambitiously, we could include the CosmoFlow routine in the already-existing chain of late-time cosmological tools. This would automate the generation of theoretical primordial data that can be directly used for CMB or LSS observables.
 
 ## Licensing 
