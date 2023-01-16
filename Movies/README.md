@@ -5,11 +5,11 @@ This folder contains details on the time evolution of the Cosmological Collider 
 At weak mixing
 
 <p align="center">
-  <img src="CosmoFlow/Movies/CosmologicalColliderFlow_WeakMixing.gif">
+  <img src="CosmologicalColliderFlow_WeakMixing.gif">
 </p>
 
 At strong mixing
 
 <p align="center">
-  <img src="CosmoFlow/Movies/CosmologicalColliderFlow_StrongMixing.gif">
+  <img src="CosmologicalColliderFlow_StrongMixing.gif">
 </p>
