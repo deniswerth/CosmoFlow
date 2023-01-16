@@ -6,7 +6,7 @@ $$
 \langle \zeta_{\vec{k}_1} \zeta_{\vec{k}_2} \zeta_{\vec{k}_3}\rangle,
 $$
 
-also known as the bispectrum in Fourier space. Following standard conventions, we define the dimensionless shape function $`S`$
+also known as the bispectrum in Fourier space. Following standard conventions, we define the dimensionless shape function <pre xml:lang="latex">\sqrt{2}</pre>
 
 The Cosmological Collider signal lodges 
 
