@@ -28,7 +28,8 @@ There, correlations between long and short modes become important than those ari
 $$
 \dot{\pi}_c \sigma^2,
 $$
-for $\mu_{\text{eff}} = 5$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). The cosmological collider signal probes the superhorizon decay of the massive field during the time 
+
+for $\mu_{\rm{eff}} = 5$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). The cosmological collider signal probes the superhorizon decay of the massive field during the time 
 
 $$
 \Delta t = H^{-1} \log (k_1/k_3).
