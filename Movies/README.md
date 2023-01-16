@@ -1,6 +1,6 @@
 # The Cosmological Collider Flow
 
-This folder contains details on the time evolution of the Cosmological Collider signals. We are interested in the three-point correlation function of the curvature perturbation 
+This folder contains details on the time evolution of the Cosmological Collider signals. We are interested in the three-point correlation function of the curvature perturbation $\langle \zeta_{\vec{k}_1} \zeta_{\vec{k}_2} \zeta_{\vec{k}_3}\rangle,$
 
 $$
 \langle \zeta_{\vec{k}_1} \zeta_{\vec{k}_2} \zeta_{\vec{k}_3}\rangle,
