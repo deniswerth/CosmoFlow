@@ -13,7 +13,9 @@ $$
 $$
 
 
-### Weak Mixing ($\mu_{\rm{eff}} = 5, \rho/H = 0.1$)
+### Weak Mixing
+
+For $\mu_{\rm{eff}} = 5, \rho/H = 0.1$
 
 <p align="center">
   <img src="CosmologicalColliderFlow_WeakMixing.gif">
