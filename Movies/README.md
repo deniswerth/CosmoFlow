@@ -21,7 +21,9 @@ For $\mu_{\rm{eff}} = 5, \rho/H = 0.1$
   <img src="CosmologicalColliderFlow_WeakMixing.gif">
 </p>
 
-### Strong Mixing ($\mu_{\rm{eff}} = 5, \rho/H = 5$)
+### Strong Mixing
+
+For $\mu_{\rm{eff}} = 5, \rho/H = 5$
 
 <p align="center">
   <img src="CosmologicalColliderFlow_StrongMixing.gif">
