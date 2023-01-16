@@ -18,7 +18,7 @@ $$
 \Delta_\zeta^2 = \frac{k^3}{2\pi^2} \langle \zeta_{\vec{k}} \zeta_{-\vec{k}}\rangle',
 $$
 
-is the dimensionless power spectrum of thecurvature perturbation. The main signature left by the massive field in the shape function lodges in its squeezed limit $k_3 \ll k_1 \approx k_2$. There, correlations between long and short modes become important than those arising from pure contact interactions, which dominate around the equilateral configurations. The long mode $k_3$ crosses the horizon before the short modes $k_1$ and $k_2$. The movies below display the bispectrum squeezed limit as function of time for the following interaction $\dot{\pi}_c \sigma^2$, for $\mu_{eff} = 5$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). The cosmological collider signal probes the superhorizon decay of the massive field during the time 
+is the dimensionless power spectrum of thecurvature perturbation. The main signature left by the massive field in the shape function lodges in its squeezed limit $k_3 \ll k_1 \approx k_2$. There, correlations between long and short modes become important than those arising from pure contact interactions, which dominate around the equilateral configurations. The long mode $k_3$ crosses the horizon before the short modes $k_1$ and $k_2$. The movies below display the bispectrum squeezed limit as function of time for the following interaction $\dot{\pi}_c \sigma^2$, for $\mu = 5$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). The cosmological collider signal probes the superhorizon decay of the massive field during the time 
 
 $$
 \Delta t = H^{-1} \log (k_1/k_3).
