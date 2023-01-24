@@ -12,7 +12,7 @@ $$
 \mathcal{L}/a^3 = ...,
 $$
 
-both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). We also define the effective frequency of the cosmological collider signal $\mu_{\rm{eff}}^2 = \frac{m^2}{H^2} - 9/4$.
+both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). We also define the effective frequency of the cosmological collider signal $\mu_{\rm{eff}}^2 = \frac{m_{\rm{eff}}^2}{H^2} - 9/4$ with $m_{\rm{eff}}^2 = m^2 + \rho^2$.
 
 ### Weak Mixing
 
