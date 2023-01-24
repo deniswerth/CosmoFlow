@@ -9,7 +9,7 @@ $$
 where $\Delta_\zeta^2 = \frac{k^3}{2\pi^2} \langle \zeta_{\vec{k}} \zeta_{-\vec{k}}\rangle'$ is the dimensionless power spectrum of thecurvature perturbation. The movies below display the shape function as a function of time for the following Lagrangian
 
 $$
-\mathcal{L}/a^3 = -\frac{1}{2}(\partial_\mu \pi_c)^2 - \frac{1}{2}(\partial_\mu \sigma)^2 -\frac{1}{2}m^2\sigma^2 - \rho \dot{\pi}_c\sigma - \frac{1}{2}\alpha\dot{\pi}_c \sigma^2,
+\mathcal{L}/a^3 = -\frac{1}{2}(\partial_\mu \pi_c)^2 - \frac{1}{2}(\partial_\mu \sigma)^2 -\frac{1}{2}m^2\sigma^2 + \rho \dot{\pi}_c\sigma - \frac{1}{2}\alpha\dot{\pi}_c \sigma^2,
 $$
 
 both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). We also define the effective frequency of the cosmological collider signal $\mu_{\rm{eff}}^2 = m_{\rm{eff}}^2/H^2 - 9/4$ with $m_{\rm{eff}}^2 = m^2 + \rho^2$.
