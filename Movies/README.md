@@ -9,9 +9,10 @@ $$
 where $\Delta_\zeta^2 = \frac{k^3}{2\pi^2} \langle \zeta_{\vec{k}} \zeta_{-\vec{k}}\rangle'$ is the dimensionless power spectrum of thecurvature perturbation. We study the following interacting Lagrangian
 
 $$
-    \mathcal{L}/a^3 &= \rho \dot{\pi}_c\sigma + c_s^{3/2}\frac{\rho}{2f_\pi^2} \frac{(\partial_i \pi_c)^2}{a^2}\sigma + c_s^{3/2} \frac{\dot{\rho}}{f_\pi^2}\,\pi_c\dot{\pi}_c\sigma
+    \mathcal{L}/a^3 = \rho \dot{\pi}_c\sigma + c_s^{3/2}\frac{\rho}{2f_\pi^2} \frac{(\partial_i \pi_c)^2}{a^2}\sigma + c_s^{3/2} \frac{\dot{\rho}}{f_\pi^2}\,\pi_c\dot{\pi}_c\sigma
     - \frac{1}{2\Lambda}\dot{\pi}_c^2\sigma - \frac{1}{2}\alpha\dot{\pi}_c \sigma^2 -\mu \sigma^3\,,
 $$
+
 where $c_s$ is the sound speed of $\pi_c$. The movies below display the shape function as a function of time for the interaction $\dot{\pi}_c \sigma^2$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing). We also define the effective frequency of the cosmological collider signal $\mu_{\rm{eff}}^2 = \frac{m^2}{H^2} - 9/4$.
 
 ### Weak Mixing
