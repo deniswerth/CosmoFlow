@@ -6,7 +6,15 @@ $$
 \langle \zeta_{\vec{k}_1} \zeta_{\vec{k}_2} \zeta_{\vec{k}_3}\rangle' = \frac{(2\pi)^4}{(k_1 k_2 k_3)^2} \Delta_\zeta^4 \, S(k_1, k_2, k_3),
 $$
 
-where $\Delta_\zeta^2 = \frac{k^3}{2\pi^2} \langle \zeta_{\vec{k}} \zeta_{-\vec{k}}\rangle'$ is the dimensionless power spectrum of thecurvature perturbation. The movies below display the shape function as a function of time for the following interaction $\dot{\pi}_c \sigma^2$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing).
+where $\Delta_\zeta^2 = \frac{k^3}{2\pi^2} \langle \zeta_{\vec{k}} \zeta_{-\vec{k}}\rangle'$ is the dimensionless power spectrum of thecurvature perturbation. We study the following interacting Lagrangian
+
+$$
+\begin{aligned}
+    \mathcal{L}/a^3 &= \rho \dot{\pi}_c\sigma + c_s^{3/2}\frac{\rho}{2f_\pi^2} \frac{(\partial_i \pi_c)^2}{a^2}\sigma + c_s^{3/2} \frac{\dot{\rho}}{f_\pi^2}\,\pi_c\dot{\pi}_c\sigma\\
+    &- \frac{1}{2\Lambda}\dot{\pi}_c^2\sigma - \frac{1}{2}\alpha\dot{\pi}_c \sigma^2 -\mu \sigma^3\,,
+\end{aligned}
+$$
+where ... The movies below display the shape function as a function of time for the following interaction $\dot{\pi}_c \sigma^2$, both for $\rho/H = 0.1$ (weak mixing) and $\rho/H = 5$ (strong mixing).
 
 ### Weak Mixing
 
