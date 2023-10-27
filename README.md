@@ -7,12 +7,12 @@
 
 This repository contains details on CosmoFlow, a numerical tool to automatically compute inflationary correlators. More details on the method and applications can be found in the paper:
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://google.com)
+[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655)
 
-[The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://google.com)
+[The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://arxiv.org/abs/2302.00655)
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
-* [Lucas Pinol](mailto:pinol@iap.fr) -- Instituto Física Teórica (IFT) Madrid
+* [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Instituto Física Teórica (IFT) Madrid
 * [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
 ## Inflationary Correlators
