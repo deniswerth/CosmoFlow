@@ -48,8 +48,8 @@ CosmoFlow can be used on any system that supports Python 3. The following module
 The numerical routine CosmoFlow is composed of several modules:
 
 * [background_inputs.py](https://github.com/deniswerth/CosmoFlow/blob/main/CosmoFlow/background_inputs.py) takes as inputs all the (time-dependent) couplings and background variables of the model the user wants to study, and generate continuous functions out of the given arrays.
-* [model.py](https://github.com/deniswerth/CosmoFlow/blob/main/CosmoFlow/model.py) defines the $u$ tensors that define the transport equations for the two- and three-point correlators. One needs to manually give the elements of the $\Delta, M, I, A, B, C$ and $D$ tensors that depend on the specific theory one considers.
-* [solver.py](https://github.com/deniswerth/CosmoFlow/blob/main/CosmoFlow/solver.py) contains the solver for the transport equation integration. It also defines the transport equations, the initial conditions for all two- and three-point correlators.
+* [model.py](https://github.com/deniswerth/CosmoFlow/blob/main/CosmoFlow/model.py) defines the $u$ tensors that define the flow equations for the two- and three-point correlators. One needs to manually give the elements of the $\Delta, M, I, A, B, C$ and $D$ tensors that depend on the specific theory one considers.
+* [solver.py](https://github.com/deniswerth/CosmoFlow/blob/main/CosmoFlow/solver.py) contains the solver for the flow equation integration. It also defines the flow equations, the initial conditions for all two- and three-point correlators.
 
 The modules in this repository can be exclusively used for a specific class of inflationary models but can be straightforwardly modified.
 
