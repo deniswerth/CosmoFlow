@@ -12,7 +12,7 @@ This repository contains details on CosmoFlow, a numerical tool to automatically
 [The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://arxiv.org/abs/2302.00655)
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
-* [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Instituto Física Teórica (IFT) Madrid
+* [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS, CNRS, Université PSL, Sorbonne Université, Université Paris Cité
 * [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
 ## Inflationary Correlators
