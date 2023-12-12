@@ -7,9 +7,7 @@
 
 This repository contains details on CosmoFlow, a numerical tool to automatically compute inflationary correlators. More details on the method and applications can be found in the paper:
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655)
-
-[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://arxiv.org/pdf/2312.06559.pdf)
+[![ArXiv](https://img.shields.io/badge/arXiv-2302...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655) [![ArXiv](https://img.shields.io/badge/arXiv-2312...-yellowgreen.svg)](https://arxiv.org/pdf/2312.06559.pdf)
 
 [Cosmological Flow of Primordial Correlators](https://arxiv.org/abs/2302.00655) [short paper]
 
@@ -72,7 +70,7 @@ We have turned the Cosmological Flow approach into an open-source tool available
 
 ## Licensing 
 
-CosmoFlow is distributed under the MIT license. See [MIT License](https://en.wikipedia.org/wiki/MIT_License) for more details.
+CosmoFlow is distributed under the MIT license. See [MIT License](https://en.wikipedia.org/wiki/MIT_License) for more details. If you want to use this free-of-use code for your own research, it would be appreciated that you cite the relevant two Cosmological Flow papers. 
 
 ## Author
 
