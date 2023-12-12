@@ -9,7 +9,11 @@ This repository contains details on CosmoFlow, a numerical tool to automatically
 
 [![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655)
 
-[The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://arxiv.org/abs/2302.00655)
+[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://arxiv.org/pdf/2312.06559.pdf)
+
+[Cosmological Flow of Primordial Correlators](https://arxiv.org/abs/2302.00655) [short paper]
+
+[The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://arxiv.org/pdf/2312.06559.pdf) [long paper]
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
 * [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS, CNRS, Université PSL, Sorbonne Université, Université Paris Cité
