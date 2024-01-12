@@ -6,7 +6,7 @@
 # The Cosmological Flow
 
 <p align="center">
-  <img src="CosmoFlowLogo.pdf">
+  <img src="CosmoFlowLogo.jpg">
 </p>
 
 This repository contains details on CosmoFlow, a Pyhton package to automatically compute cosmological correlators. More details on the method and applications can be found in the paper:
