@@ -1,0 +1,61 @@
+# For Latex double-column figure usage
+
+# \begin{figure}[h!]
+#   \centering
+#   \subfloat{\includegraphics[width=0.45\textwidth]{figure1.pdf}}
+#   \hspace*{0.2cm}
+#   \subfloat{\includegraphics[width=0.45\textwidth]{figure2.pdf}}
+#   \vspace*{0.2cm}
+#   \caption{Some text}
+# \end{figure}
+
+
+# Set default figure size
+figure.figsize : 6, 5
+
+# Set x axis
+xtick.major.size : 5
+xtick.major.width : 1
+xtick.minor.size : 3
+xtick.minor.width : 1
+xtick.direction : in
+xtick.top : True
+
+# Set y axis
+ytick.major.size : 5
+ytick.major.width : 1
+ytick.minor.size : 3
+ytick.minor.width : 1
+ytick.direction : in
+ytick.right : True
+
+# Fontsizes
+xtick.labelsize : 15
+ytick.labelsize : 15
+xtick.major.pad : 9
+legend.fontsize : 15
+legend.title_fontsize : 12
+axes.titlesize : 15
+axes.labelsize : 20
+
+# Line widths
+axes.linewidth : 1
+grid.linewidth : 0.5
+lines.linewidth : 2
+lines.solid_capstyle : round
+
+# Font style
+text.usetex : True
+font.family : serif
+font.size :   12.0
+font.serif: Computer Modern Roman # Latex font
+
+# margins
+#axes.xmargin : 0
+#axes.ymargin : 0
+
+# Legend
+legend.frameon : False
+
+# Set color cycle:
+axes.prop_cycle : cycler('color', ["1F77B4", "D62728", "2CA02C", "FF7F0E", "7F7F7F", "9467BD"])
