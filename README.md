@@ -21,6 +21,8 @@ This repository contains details on CosmoFlow, a Pyhton package to automatically
 * [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS, CNRS, Université PSL, Sorbonne Université, Université Paris Cité
 * [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
+The code is free of use but for any research done with it you are kindly asked to cite the code paper together with the two articles that presented the Cosmolofical Flow.
+
 ## Cosmological Correlators
 
 The Cosmological Flow approach is based on computing cosmological correlators by solving differential equations in time governing their time evolution through the entirety of the spacetime during inflation, from their origin as quantum fluctuations in the deep past to the end of inflation. This method takes into account all physical effects at tree-level without approximation. Specifically, CosmoFlow computes the two- and three-point correlators of fields and/or conjugate momenta $X^{\mathsf{a}}$ in Fourier space
