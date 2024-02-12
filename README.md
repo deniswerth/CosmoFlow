@@ -1,5 +1,4 @@
 [![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
-[![ArXiv](https://img.shields.io/badge/arXiv-2210...-yellowgreen.svg)](https://google.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 
@@ -17,6 +16,8 @@ This repository contains details on CosmoFlow, a Pyhton package to automatically
 [Cosmological Flow of Primordial Correlators](https://arxiv.org/abs/2302.00655) [short paper]
 
 [The Cosmological Flow: a Systematic Approach to Inflationary Correlators](https://arxiv.org/pdf/2312.06559.pdf) [long paper]
+
+[CosmoFlow: Python Package for Cosmological Correlators](https://arxiv.org/pdf/2402.03693.pdf) [code paper]
 
 * [Denis Werth](mailto:werth@iap.fr) -- Sorbonne University, Institut d'Astrophysique de Paris (IAP)
 * [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS, CNRS, Université PSL, Sorbonne Université, Université Paris Cité
