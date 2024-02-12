@@ -11,7 +11,8 @@
 
 This repository contains details on CosmoFlow, a Pyhton package to automatically compute cosmological correlators. More details on the method and applications can be found in the paper:
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2302...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655) [![ArXiv](https://img.shields.io/badge/arXiv-2312...-yellowgreen.svg)](https://arxiv.org/pdf/2312.06559.pdf)
+[![ArXiv](https://img.shields.io/badge/arXiv-2302...-yellowgreen.svg)](https://arxiv.org/abs/2302.00655) [![ArXiv](https://img.shields.io/badge/arXiv-2312...-yellowgreen.svg)](https://arxiv.org/pdf/2312.06559.pdf) [![ArXiv](https://img.shields.io/badge/arXiv-2312...-yellowgreen.svg)]([https://arxiv.org/pdf/2312.06559.pdf](https://arxiv.org/pdf/2402.03693.pdf))
+
 
 [Cosmological Flow of Primordial Correlators](https://arxiv.org/abs/2302.00655) [short paper]
 
