@@ -23,7 +23,7 @@ This repository contains details on CosmoFlow, a Pyhton package to automatically
 * [Lucas Pinol](mailto:lucas.pinol@phys.ens.fr) -- Laboratoire de Physique de l'École Normale Supérieure (LPENS), ENS, CNRS, Université PSL, Sorbonne Université, Université Paris Cité
 * [Sébastien Renaux-Petel](mailto:petel@iap.fr) -- CNRS, Institut d'Astrophysique de Paris (IAP)
 
-The code is free of use but for any research done with it you are kindly asked to cite the code paper together with the two articles that presented the Cosmolofical Flow.
+The code is free of use but for any research done with it you are kindly asked to cite the code paper together with the two articles that presented the Cosmological Flow.
 
 ## Cosmological Correlators
 
