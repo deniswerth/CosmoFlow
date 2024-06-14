@@ -1,19 +1,32 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import solve_ivp
-from scipy.integrate import odeint
-from scipy.interpolate import interp1d
+import numpy as np # import Numpy package for vectorisation
+import matplotlib.pyplot as plt # import matplotlib.pyplot package for visualisation
+from scipy.integrate import solve_ivp # import solver solve_ivp from scipy
+from scipy.integrate import odeint # import solver odeint from scipy
+from scipy.interpolate import interp1d # import interp1d from Scipy package
 
 from Theory import theory
 
 class solver():
 	"""
 	This class defines the initial conditions and the flow equations, and contains the solver to numerically
-	integrate the complete set of equations
+	integrate the complete set of equations.
 	"""
 
 	def __init__(self, Nspan, Nfield, interpolated, Rtol, Atol):
+		"""
+        Initialize the solver class with the given parameters.
 
+        :param Nspan: Span of N values.
+        :type Nspan: list or np.ndarray
+        :param Nfield: Number of fields.
+        :type Nfield: int
+        :param interpolated: Interpolated data for initial conditions.
+        :type interpolated: np.ndarray
+        :param Rtol: Relative tolerance for numerical solver.
+        :type Rtol: float
+        :param Atol: Absolute tolerance for numerical solver.
+        :type Atol: float
+        """
 		self.Nspan = Nspan
 		self.Nfield = Nfield
 		self.interpolated = interpolated
@@ -27,8 +40,13 @@ class solver():
 	#Numerical solver for the 2- and 3-pt functions simultaneously
 	def Sigma_Re_init(self, k):
 		"""
-		Define the real part of the initial 2-pt function
-		"""
+        Define the real part of the initial 2-pt function.
+
+        :param k: Wavenumber.
+        :type k: float
+        :return: Real part of the initial 2-pt function.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		s = self.initial.scale
 		S = np.ones((Nfield, Nfield)) + (s-1)*np.eye(Nfield)
@@ -41,8 +59,13 @@ class solver():
 
 	def Sigma_Im_init(self, k):
 		"""
-		Define the imaginary part of the initial 2-pt function
-		"""
+        Define the imaginary part of the initial 2-pt function.
+
+        :param k: Wavenumber.
+        :type k: float
+        :return: Imaginary part of the initial 2-pt function.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		s = self.initial.scale
 		S = np.ones((Nfield, Nfield)) + (s-1)*np.eye(Nfield)
@@ -53,8 +76,17 @@ class solver():
 
 	def fffCalc(self, k1, k2, k3):
 		"""
-		Define the field-field-field initial conditions
-		"""
+        Define the field-field-field initial conditions.
+
+        :param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		a = self.initial.a
 		Hi = self.initial.H
@@ -102,8 +134,17 @@ class solver():
 
 	def pffCalc(self, k1, k2, k3):
 		"""
-		Define the momentum-field-field initial conditions
-		"""
+        Define the momentum-field-field initial conditions.
+
+        :param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		a = self.initial.a
 		Hi = self.initial.H
@@ -163,8 +204,17 @@ class solver():
 
 	def ppfCalc(self, k1, k2, k3):
 		"""
-		Define the momentum-momentum-field initial conditions 
-		"""
+        Define the momentum-momentum-field initial conditions.
+
+        :param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		a = self.initial.a
 		Hi = self.initial.H
@@ -215,8 +265,17 @@ class solver():
 
 	def pppCalc(self, k1, k2, k3):
 		"""
-		Define the momentum-momentum-momentum initial conditions 
-		"""
+        Define the momentum-momentum-momentum initial conditions.
+
+        :param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
+        """
 		Nfield = self.Nfield
 		a = self.initial.a
 		Hi = self.initial.H
@@ -270,7 +329,16 @@ class solver():
 
 	def B_init(self, k1, k2, k3):
 		"""
-		Define the real part of the initial 3-pt functions
+		Define the real part of the initial 3-pt functions.
+
+		:param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
 		"""
 		Nfield = self.Nfield
 		a = self.initial.a
@@ -306,7 +374,16 @@ class solver():
 
 	def f_init(self, k1, k2, k3):
 		"""
-		Define the initial conditions for 2- and 3-pt functions
+		Define the initial conditions for 2- and 3-pt functions.
+
+		:param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: Initial conditions for field-field-field.
+        :rtype: np.ndarray
 		"""
 		Nfield = self.Nfield
 		return np.concatenate((np.reshape(self.Sigma_Re_init(k1), 2*Nfield*2*Nfield), np.reshape(self.Sigma_Re_init(k2), 2*Nfield*2*Nfield), np.reshape(self.Sigma_Re_init(k3), 2*Nfield*2*Nfield), 
@@ -318,7 +395,18 @@ class solver():
 		"""
 		Define the flow equation for the 2- and 3-pt functions in a flatten way
 		y is a flat array of dimension (2*Nfield*2*Nfield * 2*Nfield*2*Nfield * 2*Nfield*2*Nfield  * 2*Nfield*2*Nfield * 2*Nfield*2*Nfield * 2*Nfield*2*Nfield  *  2Nfield*2Nfield*2Nfield)
-		for (Sigma_Re_k1, Sigma_Re_k2, Sigma_Re_k3, Sigma_Im_k1, Sigma_Im_k2, Sigma_Im_k2, B_Re)
+		for (Sigma_Re_k1, Sigma_Re_k2, Sigma_Re_k3, Sigma_Im_k1, Sigma_Im_k2, Sigma_Im_k2, B_Re).
+		
+		:param y: vector of correlators to be solved
+		:type y: np.ndarray
+		:param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: rhs of flow differential equations
+        :rtype: np.ndarray
 		"""
 		Nfield = self.Nfield
 
@@ -403,7 +491,16 @@ class solver():
 
 	def f_solution(self, k1, k2, k3):
 		"""
-		Solve for 2- and 3-pt functions given k1, k2, k3 and a tensor of initial conditions
+		Solve for 2- and 3-pt functions given k1, k2, k3 and a tensor of initial conditions.
+
+		:param k1: Wavenumber 1.
+        :type k1: float
+        :param k2: Wavenumber 2.
+        :type k2: float
+        :param k3: Wavenumber 3.
+        :type k3: float
+        :return: solutions of the flow equations
+        :rtype: list
 		"""
 		rtol, atol = self.Rtol, self.Atol
 		Nfield = self.Nfield
