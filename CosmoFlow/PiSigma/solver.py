@@ -256,11 +256,11 @@ class solver():
 					fff[i, j, k] += 1/(a*a*a*a)/4/(k1*k2*k3)/kt*(-C123[i, j, k]*k1*k2 - C132[i, k, j]*k1*k3 - C231[j, k, i]*k2*k3
 													+ a*a*As123[i, j, k] + a*a*As132[i, k, j] + a*a*As231[j, k, i]
 													+ a*a*Hi*B123[i, j, k]*((k1+k2)*k3/k1/k2 - K2/k1/k2)
-													+ a*a*Hi*B132[i, k, j]*((k1+k3)*k1/k1/k3 - K2/k1/k3)
+													+ a*a*Hi*B132[i, k, j]*((k1+k3)*k2/k1/k3 - K2/k1/k3)
 													+ a*a*Hi*B231[j, k, i]*((k2+k3)*k1/k2/k3 - K2/k2/k3)
-													+ D123[i, j, k]*Hi*(K2 - 2*k1*k2*k2/kt)
-													+ D132[i, k, j]*Hi*(K2 - 2*k1*k2*k2/kt)
-													+ D231[j, k, i]*Hi*(K2 - 2*k1*k2*k2/kt)
+													+ D123[i, j, k]*Hi*(K2 - 2*k1*k2*k3/kt)
+													+ D132[i, k, j]*Hi*(K2 - 2*k1*k2*k3/kt)
+													+ D231[j, k, i]*Hi*(K2 - 2*k1*k2*k3/kt)
 													)
 					fff[i, j, k] += 1./(a*a*a*a)/4./(k1*k2*k3)/kt * (Af123[i, j, k] + Af132[i, k, j] + Af231[j, k, i])
 
@@ -376,7 +376,7 @@ class solver():
 																	+ a*a*Hi*B231[j, k, i]*k1*k1/k3/k3
 																	- 2*D123[i, j, k]*Hi*k1*k2*k3/kt
 																	- 2*D132[i, k, j]*Hi*k1*k2*k3/kt
-																	- 2*D123[j, k, i]*Hi*k1*k2*k3/kt
+																	- 2*D231[j, k, i]*Hi*k1*k2*k3/kt
 																	)
 					ppf[i, j, k] += - 1./(a*a*a*a)/4/K3 * (k1*k2*k3)*(k1*k2*k3)/kt*k1*k2 * (Af123[i, j, k] + Af132[i, k, j] + Af231[j, k, i])
 		
